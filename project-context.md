@@ -1,6 +1,6 @@
 ---
 name: vitrina-project-context
-description: "Vitrina project context"
+description: "Use for ALL tasks related to Vitrina project — variables, local styles, feature flags, and project-specific settings. Load automatically for any Vitrina design or development task."
 ---
 
 <!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
