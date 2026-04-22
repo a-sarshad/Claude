@@ -1,9 +1,9 @@
 ---
 name: vitrina-figma-rules
-description: "Vitrina figma rules as Skills"
+description: "Use for ALL Figma design and layout tasks in the Vitrina project. Load automatically when user asks to: create a page, build a screen, add components, design layouts, or do anything in Figma for Vitrina dashboard. Always load alongside figma-use and figma-generate-design skills."
 ---
 
-<!-- version: 2 | updated: 2026-04-22 | changelog: ایجاد تغییرات در فایل ایجاد شده توسط claude -->
+<!-- version: 2 | updated: 2026-04-22 | changelog: ایجاد تغییرات در فایل ایجاد شده توسط -->
 
 # Figma Rules — Vitrina
 > قوانین اجباری برای طراحی صفحات در فیگما
