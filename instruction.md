@@ -2,8 +2,8 @@
 
 ## Active Context
 > فقط وقتی نیاز هست mention کن:
-| `chakra-ui-v3-fa.md` | https://raw.githubusercontent.com/a-sarshad/Chakra-UI-V3/refs/heads/main/chakra-ui-v3-fa.md |
-| `project-context.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/project-context.md |
+`chakra-ui-v3-fa.md`
+`project-context.md`
 
 ---
 
