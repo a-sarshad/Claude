@@ -1,3 +1,5 @@
+<!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
+
 # Context
 [محتوای chakra-ui-ds-context-v2.md]
 [محتوای vitrina-project-context.md]
