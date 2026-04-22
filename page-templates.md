@@ -1,9 +1,7 @@
-<!-- version: 2 | updated: 2026-04-22 | changelog: استفاده از لینک github بجای فایل .md در project knowledge -->
+<!-- version: 2 | updated: 2026-04-22 | changelog: توضیحات -->
 
 # Page Templates — Vitrina Dashboard
-> «این فایل‌ها رو بخون و به عنوان context پروژه استفاده کن»
-| `component-inventory.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/component-inventory.md |
-| `project-context.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/project-context.md |
+> همیشه همراه با `component-inventory.md` و `project-context.md` استفاده شود
 
 ---
 
