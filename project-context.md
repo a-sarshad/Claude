@@ -1,5 +1,5 @@
 ---
-name: pr-vitrina
+name: vitrina-project-context
 description: "Vitrina project context"
 ---
 
