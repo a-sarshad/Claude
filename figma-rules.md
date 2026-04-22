@@ -1,3 +1,10 @@
+---
+name: vitrina-figma-rules
+description: "Vitrina figma rules as Skills"
+---
+
+<!-- version: 2 | updated: 2026-04-22 | changelog: ایجاد تغییرات در فایل ایجاد شده توسط claude -->
+
 # Figma Rules — Vitrina
 > قوانین اجباری برای طراحی صفحات در فیگما
 > این فایل را همیشه قبل از هر کار در فیگما بخوان
@@ -6,7 +13,7 @@
 
 ## ۱. قوانین پایه — هیچ‌وقت نقض نکن
 
-1. **همیشه Auto Layout** — هیچ Frame معمولی (بدون Auto Layout) نساز
+1. **همیشه Auto Layout** — هیچ Frame معمولی (بدون Auto Layout) نساز و اگر نیاز شد مگر برای موارد خاص
 2. **هیچ مقدار hard-coded** — همیشه از design system tokens استفاده کن
 3. **فونت فقط Vazirmatn** — قبل از هر text node: `await figma.loadFontAsync({family: "Vazirmatn", style: "..."})`
 4. **جهت RTL** — همه Auto Layout ها `layoutDirection: "HORIZONTAL"` با `RTL` در نظر بگیر
@@ -47,11 +54,11 @@ Page
 | المان | Horizontal | Vertical |
 |-------|-----------|---------|
 | Page | Fixed (1920px) | Hug |
-| Body | Fill | Hug |
-| Main | Fill | Hug |
+| Body | Fill | Fill |
+| Main | Fill | Fill |
 | Content | Fill | Hug |
 | ستون‌های Start/End (fixed) | Fixed | Fill |
-| ستون Middle | Fill (با max-width) | Hug |
+| ستون Middle | Fill (با max-width) | Hug (معمولاً) |
 | Sidebar | Fixed (256px) | Fill |
 | Navbar | Fill | Fixed |
 | Component داخلی | Fill | Hug (معمولاً) |
@@ -70,11 +77,11 @@ Page
 | 1 Column Center | — | max 960px | — | 256px |
 | 2 Column Right Center | 256px | max 960px | — | 256px |
 | 2 Column Right Fill | 256px | fill | — | 256px |
-| 3 Column | 288px | max 960px | 256px | 256px |
+| 3 Column | 256px | max 960px | 288px | 256px |
 
 **Spacing داخل صفحه:**
-- Main: `padding: 16px` — `gap: 16px`
-- Content: `padding: 24px` — `gap: 40px`
+- Main: `padding: 16px` — `gap: 16px` - `flow: vertical`
+- Content: `padding: 24px` — `gap: 40px` - `flow: horizontal`
 
 > اگه template مشخص نشد → **1 Column Center** به عنوان default
 
@@ -83,7 +90,7 @@ Page
 ## ۵. Component سازی
 
 **چه موقع component بساز:**
-- یه element بیش از یک بار در صفحه تکرار می‌شه
+- یه element چندین بار در صفحه تکرار می‌شه
 - element نیاز به states مختلف داره (Hover، Selected، Disabled)
 
 **ساختار variant set:**
@@ -164,6 +171,10 @@ return { createdNodeIds: [...], mutatedNodeIds: [...] }
 ## ۹. Workflow طراحی صفحه جدید
 
 ```
+
+اگر لینک frame ستون middle در template صفحه جدید رو بهت دادم یک راست برو به شماره ۴
+اگر لینک رو ندادم اول سوال کن و اگر ندادم از شماره ۱ شروع کن و اگر دادم از شماره ۴ شروع کن
+
 ۱. template را از page-template.md انتخاب کن
 ۲. تو Figma، template مناسب را clone کن
 ۳. لینک frame ستون Middle (یا Start/End) را بگیر
@@ -171,7 +182,7 @@ return { createdNodeIds: [...], mutatedNodeIds: [...] }
 ۵. کامپوننت‌های لازم را از component-inventory.md شناسایی کن
 ۶. هر section را جداگانه بساز (یه use_figma call = یه section)
 ۷. بعد از هر section با get_screenshot validate کن
-۸. در پایان screenshot کامل صفحه را چک کن
+۸. پس از پایان برای screenshot ازم سوال کن و اگر اوکی دادم screenshot کامل صفحه را چک کن
 ```
 
 ---
