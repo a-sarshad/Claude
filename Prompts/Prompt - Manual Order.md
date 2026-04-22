@@ -1,3 +1,5 @@
+<!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
+
 /ds-chakra-ui
 /pr-vitrina
 
