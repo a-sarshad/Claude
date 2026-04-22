@@ -1,4 +1,6 @@
+---
 <!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
+---
 
 # Vitrina — Project-Specific Context
 # این فایل فقط مختص پروژه Vitrina است
