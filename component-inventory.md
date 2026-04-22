@@ -34,7 +34,7 @@
 | **Sidebar-Item/Setting** | `Sidebar-Item/Setting` | `Open=false\|true` | 256×268px / 256×196px | منوی اکوردیون تنظیمات در سایدبار |
 | **SlideMenu-Item** | `SlideMenu-Item` | `Selected=false\|true, State=Default\|Hover` | 256×208px | آیتم منوی slide-out |
 | **SubLine** | `SubLine` | `State=Default\|Hover/Select` | 90×54px | زیرمنوی کوچک / tab indicator |
-| **Split Menu** | `Split Menu` | `State=Pending\|Canceled\|Processing\|Returned\|Paid\|Sent, Open=false` | 980×68px | منوی تقسیم‌شده وضعیت سفارش |
+| **Split-Menu** | `Split-Menu` | `State=Pending\|Canceled\|Processing\|Returned\|Paid\|Sent, Open=false` | 980×68px | منوی تقسیم‌شده وضعیت سفارش |
 
 ---
 
