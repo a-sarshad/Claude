@@ -91,6 +91,7 @@ Page
 ---
 
 ### 1. 1 Column Fill
+> **Figma:** https://www.figma.com/design/CfbQjlet5WMabrTfZt46iL/Vitrina?node-id=1984-27376&t=MC27TP1VjEnFONmR-11
 
 ```
 Content (1584px)
@@ -106,6 +107,7 @@ Content (1584px)
 ---
 
 ### 2. 1 Column Center
+> **Figma:** https://www.figma.com/design/CfbQjlet5WMabrTfZt46iL/Vitrina?node-id=281-5698&t=MC27TP1VjEnFONmR-11
 
 ```
 Content (1584px)
@@ -123,6 +125,7 @@ Content (1584px)
 ---
 
 ### 3. 2 Column Right Center
+> **Figma:** https://www.figma.com/design/CfbQjlet5WMabrTfZt46iL/Vitrina?node-id=281-5732&t=MC27TP1VjEnFONmR-11
 
 ```
 Content (1584px)
@@ -140,6 +143,7 @@ Content (1584px)
 ---
 
 ### 4. 2 Column Right Fill
+> **Figma:** https://www.figma.com/design/CfbQjlet5WMabrTfZt46iL/Vitrina?node-id=281-5708&t=MC27TP1VjEnFONmR-11
 
 ```
 Content (1584px)
@@ -157,6 +161,7 @@ Content (1584px)
 ---
 
 ### 5. 3 Column
+> **Figma:** https://www.figma.com/design/CfbQjlet5WMabrTfZt46iL/Vitrina?node-id=281-5719&t=MC27TP1VjEnFONmR-11
 
 ```
 Content (1584px)
