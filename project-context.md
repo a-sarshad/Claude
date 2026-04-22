@@ -1,11 +1,13 @@
 ---
-<!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
+name: pr-vitrina
+description: "Vitrina project context"
 ---
 
-# Vitrina — Project-Specific Context
+<!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
+
+# 
 # این فایل فقط مختص پروژه Vitrina است
 
----
 
 ## معرفی پروژه
 - نام: Vitrina
