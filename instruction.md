@@ -1,9 +1,9 @@
-<!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
+<!-- version: 2 | updated: 2026-04-22 | changelog: استفاده از لینک github بجای فایل .md در project knowledge -->
 
 ## Active Context
 > فقط وقتی نیاز هست mention کن:
-> - طراحی DS-aware: `@chakra-ui-ds-context-v2.md`
-> - کار روی پروژه Vitrina: `@vitrina-project-context.md`
+| `chakra-ui-v3-fa.md` | https://raw.githubusercontent.com/a-sarshad/Chakra-UI-V3/refs/heads/main/chakra-ui-v3-fa.md |
+| `project-context.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/project-context.md |
 
 ---
 

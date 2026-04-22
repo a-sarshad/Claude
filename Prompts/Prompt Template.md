@@ -1,8 +1,10 @@
-<!-- version: 1 | updated: 2026-04-22 | changelog: توضیحات -->
+<!-- version: 1 | updated: 2026-04-22 | changelog: استفاده از لینک github بجای فایل .md در project knowledge -->
 
 # Context
-[محتوای chakra-ui-ds-context-v2.md]
-[محتوای vitrina-project-context.md]
+> «این فایل‌ها رو بخون و به عنوان context پروژه استفاده کن»
+| `chakra-ui-v3-fa.md` | https://raw.githubusercontent.com/a-sarshad/Chakra-UI-V3/refs/heads/main/chakra-ui-v3-fa.md |
+| `project-context.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/project-context.md |
+
 
 ---
 

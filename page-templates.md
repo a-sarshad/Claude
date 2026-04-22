@@ -1,8 +1,9 @@
-<!-- version: 2 | updated: 2026-04-22 | changelog: ایجاد page template از روی layout های موجود در فایل فیگما -->
+<!-- version: 2 | updated: 2026-04-22 | changelog: استفاده از لینک github بجای فایل .md در project knowledge -->
 
 # Page Templates — Vitrina Dashboard
-> منبع: طرح‌های فیگما پروژه ویترینا
-> همیشه همراه با `component-inventory-v2.md` و `project-context.md` استفاده شود
+> «این فایل‌ها رو بخون و به عنوان context پروژه استفاده کن»
+| `component-inventory.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/component-inventory.md |
+| `project-context.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/project-context.md |
 
 ---
 
