@@ -1,52 +1,50 @@
-<!-- version: 1 | updated: 2026-04-22 | changelog: استفاده از لینک github بجای فایل .md در project knowledge -->
+<!-- version: 2 | updated: 2026-04-22 | changelog: حذف موارد تکراری با pk/skill — بهینه‌سازی توکن -->
 
 # Context
-> «این فایل‌ها رو بخون و به عنوان context پروژه استفاده کن»
+> این فایل‌ها رو بخون و به عنوان context پروژه استفاده کن — قبل از هر کار
+
+```
+| فایل | لینک |
+|------|------|
 | `chakra-ui-v3-fa.md` | https://raw.githubusercontent.com/a-sarshad/Chakra-UI-V3/refs/heads/main/chakra-ui-v3-fa.md |
 | `project-context.md` | https://raw.githubusercontent.com/a-sarshad/Vitrina/refs/heads/main/project-context.md |
+
+> قوانین Figma، layout ها، و لیست کامپوننت‌ها در **Skills و Project Knowledge** موجودند — نیازی به تکرار نیست.
+```
+
+> فایل‌های `chakra-ui-v3-fa.md` و `project-context.md` در Project Knowledge موجودند — قبل از شروع سرچ کن و به عنوان context استفاده کن.
+> قوانین Figma، layout ها، و لیست کامپوننت‌ها هم در Skills و Project Knowledge موجودند — نیازی به تکرار نیست.
 
 
 ---
 
-# درخواست طراحی صفحه جدید
+# درخواست طراحی صفحه
 
 ## اطلاعات پایه
-- نام صفحه: [مثلاً: لیست محصولات]
-- هدف صفحه: [کاربر می‌خواد چیکار کنه — یه جمله]
-- Breakpoint هدف: [480 / 1440 / 1920]
+- **نام صفحه:** [مثلاً: لیست محصولات]
+- **هدف:** [کاربر می‌خواد چیکار کنه — یه جمله]
+- **Template:** [1 Column Fill / 1 Column Center / 2 Column Right Center / 2 Column Right Fill / 3 Column]
+- **لینک Middle در Figma:** [لینک frame که باید محتوا داخلش ساخته بشه]
 
-## Layout مرجع
-از template خالی Vitrina استفاده کن:
-https://www.figma.com/design/CfbQjlet5WMabrTfZt46iL/Vitrina?node-id=281-5698
-
-ساختار ثابت (دست نزن):
-- Navbar: 64px — full width
-- Sidebar: 256px — سمت راست
-- Main: 1664px
-- Middle column (محل محتوا): 960px — با offset 336px از چپ
-- Page Header: شامل breadcrumb + عنوان + دکمه CTA اختیاری
+---
 
 ## محتوای صفحه
-بخش‌هایی که باید در Middle column طراحی بشن:
+بخش‌هایی که باید در Middle column ساخته بشن:
 
 ### بخش ۱: [نام]
-- هدف: [چی نشون میده]
-- محتوا: [چه المان‌هایی داره]
-- Component پیشنهادی Chakra: [اگه می‌دونی]
+- **هدف:** [چی نشون میده]
+- **المان‌ها:** [چه چیزهایی داره]
+- **Component پیشنهادی:** [اگه می‌دونی — از component-inventory یا Chakra UI]
 
 ### بخش ۲: [نام]
-- هدف: ...
-- محتوا: ...
+- **هدف:** ...
+- **المان‌ها:** ...
+
+---
 
 ## قوانین خاص این صفحه
-- [مثلاً: جدول باید قابلیت sort داشته باشه]
-- [مثلاً: هر ردیف باید دکمه Edit و Delete داشته باشه]
-- [مثلاً: state خالی باید نمایش داده بشه]
+> فقط مواردی که از قوانین پیش‌فرض figma-rules.md متفاوت هستند
 
-## خروجی مورد نیاز
-لطفاً به ترتیب بده:
-1. ساختار لایه‌های پیشنهادی (مثل همان متادیتای Figma)
-2. Component های Chakra UI که باید استفاده بشن با props اصلی
-3. Spacing و sizing دقیق بر اساس DS tokens
-4. State های مختلف که باید طراحی بشن (empty، loading، error)
-5. نکات UX مهم برای این صفحه
+- [ مثلاً: Start column باید accordion داشته باشه ]
+- [ مثلاً: جدول قابلیت sort داره ]
+- [ مثلاً: state خالی باید طراحی بشه ]
