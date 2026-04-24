@@ -198,7 +198,7 @@ return { createdNodeIds: [...], mutatedNodeIds: [...] }
 - [ ] نام‌گذاری لایه‌ها انگلیسی و با convention درسته؟
 
 ## ۱۱. autolayout از سمت راست
-**همه Auto Layout ها `counterAxisAlignItems = "MAX"`** — چون پروژه RTL است، تراز افقی همیشه باید راست باشد. هیچ‌وقت مقدار پیش‌فرض (MIN/LEFT) را نگذار.
+**همه Auto Layout ها `counterAxisAlignItems = "MAX"`** — چون پروژه RTL است، تراز افقی برای auto layout ها همیشه بصورت پیشفرض باید align right باشد. هیچ‌وقت مقدار پیش‌فرض (MIN/LEFT) را نگذار.
 
 ## ۱۲. ارتفاع فریم هارو براسا محتویات درنظر بگیر
 **ضد الگوی resize با ارتفاع ثابت:**
