@@ -25,10 +25,10 @@ Page
     │   │   width: fill container
     │   │   padding: 16px
     │   │   gap: 16px
-    │   ├── Page-Header (component)
+    │   ├── Page-Header (component - اگر از قبل در صفحه موجود بود نیازی به ساخت مجدد نیست)
     │   └── Content  [horizontal auto layout]
-    │           padding: 24px
-    │           gap: 40px
+    │       │   padding: 24px
+    │       │   gap: 40px
     │       ├── Start   ← ستون راست (RTL — اول رندر می‌شود)
     │       ├── Middle  ← ستون مرکزی
     │       └── End     ← ستون چپ
