@@ -3,7 +3,7 @@ name: vitrina-figma-rules
 description: "Use for ALL Figma design and layout tasks in the Vitrina project. Load automatically when user asks to: create a page, build a screen, add components, design layouts, or do anything in Figma for Vitrina dashboard. Always load alongside figma-use and figma-generate-design skills."
 ---
 
-<!-- version: 2 | updated: 2026-04-22 | changelog: ایجاد تغییرات در فایل ایجاد شده توسط -->
+<!-- version: 3 | updated: 2026-04-24 | changelog: افزودن قانون ۱۱ و ۱۲  -->
 
 # Figma Rules — Vitrina
 > قوانین اجباری برای طراحی صفحات در فیگما
@@ -196,3 +196,14 @@ return { createdNodeIds: [...], mutatedNodeIds: [...] }
 - [ ] همه node IDs در `return` هستند؟
 - [ ] از token استفاده شده؟ (نه hex مستقیم)
 - [ ] نام‌گذاری لایه‌ها انگلیسی و با convention درسته؟
+
+## ۱۱. autolayout از سمت راست
+**همه Auto Layout ها `counterAxisAlignItems = "MAX"`** — چون پروژه RTL است، تراز افقی همیشه باید راست باشد. هیچ‌وقت مقدار پیش‌فرض (MIN/LEFT) را نگذار.
+
+## ۱۲. ارتفاع فریم هارو براسا محتویات درنظر بگیر
+**ضد الگوی resize با ارتفاع ثابت:**
+هیچ‌وقت frame ای که قرار است محتوا را Hug کند با عدد ثابت نساز.
+روش درست:
+- اول `primaryAxisSizingMode = "AUTO"` را ست کن
+- بعد `appendChild` کن
+- `resize` فقط برای تنظیم **عرض** مجاز است: `frame.resize(960, frame.height)`
