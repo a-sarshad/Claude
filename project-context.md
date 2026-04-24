@@ -12,7 +12,8 @@ description: "Use for ALL tasks related to Vitrina project — variables, local 
 ## معرفی پروژه
 - نام: Vitrina
 - Component Library: Chakra UI v3 (فارسی‌شده)
-- زبان: فارسی / RTL
+- زبان: فارسی / RTL (direction: right to left)
+- چون پروژه RTL است، تراز افقی برای auto layout ها همیشه بصورت پیشفرض باید align right باشد. هیچ‌وقت مقدار پیش‌فرض (MIN/LEFT) را نگذار
 - DS پایه: Chakra UI [v3] FA (موجود در Project Knowledge)
 
 ---
